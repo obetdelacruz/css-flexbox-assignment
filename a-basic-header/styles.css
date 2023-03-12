@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  margin: 10px 10px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0;
+  background-color: beige;
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 99%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.link1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.link2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  color: orangered;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 9px 15px;
+  background-color: blanchedalmond;
+  margin: 10px 0;
+}
+
+.link1,
+.link2 {
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  background-color: blanchedalmond;
+  padding: 5px 10px;
+  margin: 25px 0;
+}
+
+.link1,
+.link2 li a:hover {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.modal-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-modal {
+  width: 20%;
+  padding: 20px;
+  margin: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+.exclamation-button {
+  background-color: silver;
+  border-radius: 50px;
+  color: blue;
+  font-size: 25px;
+}
+
+.close-button {
+  background-color: silver;
+  font-size: 15px;
+}
+
+.paragraph-part {
+  margin: 1px;
+  font-size: 20px;
+}
+
+.question {
+  margin: 5px 10px;
+  font-weight: bold;
+}
+
+.lorem {
+  margin: 5px 10px;
+}
+
+.button2 {
+  margin: 5px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.continue-button:hover {
+  padding: 2px;
+  background-color: blue;
+  color: white;
+}
+
+.continue-button:active {
+  background-color: chartreuse;
+}
+
+.continue-button:focus {
+  background-color: darkkhaki;
+}
+
+.cancel-button:hover {
+  padding: 2px;
+  background-color: blue;
+  color: white;
+}
+
+.cancel-button:active {
+  background-color: chartreuse;
+}
+
+.cancel-button:focus {
+  background-color: darkkhaki;
+}
+
+.continue-button,
+.cancel-button {
+  cursor: pointer;
+}

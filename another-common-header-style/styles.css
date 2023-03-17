@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.nav-submenu {
+  background-color: aqua;
+  list-style: none;
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  flex: 1 1 auto;
+}
+
+.link1 {
+  flex: 1 0 auto;
+}
+
+.link2 {
+  flex: 2 4 auto;
+}
+
+.link3 {
+  flex: 2 4 auto;
+}
+
+.link4 {
+  flex: 2 4 auto;
+}
+
+.link5 {
+  flex: 2 4 auto;
+}

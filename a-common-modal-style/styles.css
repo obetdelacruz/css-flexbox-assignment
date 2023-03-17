@@ -6,58 +6,49 @@
   box-sizing: border-box;
 }
 
-.modal-container {
-  padding: 30px;
+body {
+  background-color: grey;
+}
+.card {
+  background-color: white;
   display: flex;
-  justify-content: center;
-}
-
-.main-modal {
-  width: 20%;
-  padding: 20px;
-  margin: 20px;
-  background-color: whitesmoke;
+  width: 500px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+
+  margin: 50px;
+  padding: 25px;
+  border-radius: 15px;
 }
 
-.icons {
+.content-container {
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.content-question {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.content-paragraph {
+  margin-bottom: 10px;
+}
+
+.exclamation-icon {
+  font-size: 30px;
+}
+
+.close-icon {
+  font-size: 30px;
+}
+
+.buttons {
+  height: 100%;
+  gap: 5px;
+
   display: flex;
-  justify-content: space-between;
-  background-color: blue;
-}
-
-.exclamation-button {
-  background-color: silver;
-  border-radius: 50px;
-  color: blue;
-  font-size: 25px;
-}
-
-.close-button {
-  background-color: silver;
-  font-size: 15px;
-}
-
-.paragraph-part {
-  margin: 1px;
-  font-size: 20px;
-}
-
-.question {
-  margin: 5px 10px;
-  font-weight: bold;
-}
-
-.lorem {
-  margin: 5px 10px;
-}
-
-.button2 {
-  margin: 5px 10px;
-  font-weight: bold;
-  font-size: 20px;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .continue-button:hover {
